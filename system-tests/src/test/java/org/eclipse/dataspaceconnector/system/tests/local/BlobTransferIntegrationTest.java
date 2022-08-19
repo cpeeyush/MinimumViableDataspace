@@ -51,7 +51,7 @@ public class BlobTransferIntegrationTest extends AbstractBlobTransferTest {
                 LOCAL_SOURCE_BLOB_STORE_ACCOUNT,
                 LOCAL_SOURCE_BLOB_STORE_ACCOUNT_KEY
         );
-        // Upload a blob with test data on provider blob container.
+        // Upload a blob with testdata on provider blob container.
         createContainer(srcBlobServiceClient, PROVIDER_CONTAINER_NAME);
         srcBlobServiceClient.getBlobContainerClient(PROVIDER_CONTAINER_NAME)
                 .getBlobClient(PROVIDER_ASSET_FILE)
